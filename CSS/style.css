@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDF2F8;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.card {
+    margin: 190px auto ; 
+    width: 700px;
+    height: 287px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 20px 20px 25px #d8e4ee;
+}
+
+section.card > div.left {
+    background: url('https://m.media-amazon.com/images/I/7122QFrZspL._AC_SX679_.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 35%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+section.card > div.right {
+    width: 65%;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.card > div.right > h1 {
+    font-weight: 700;
+    line-height: 1.3;
+    color: #4C525E;
+}
+
+section.card > div.right > p {
+    font-weight: 300;
+    line-height: 1.3;
+    color: #73787E;
+}
+
+section.card > div.right > div.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.card > div.right > div.info > div.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    line-height: 1.6;
+}
+
+section.card > div.right > div.info > div.left > div.text > div.sub-info {
+    font-weight: 700;
+    font-size: 15px;
+    color: #4C525E;
+}
+
+section.card > div.right > div.info > div.left > div.text > div.date {
+    font-weight: 300;
+    font-size: 12px;
+    color: #73787E;
+}
+
+
+section.card > div.right > div.info > div.left >  div.left_img {
+    background-image: url('/images/image-1.jpg');
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+section.card > div.right > div.info > div.right {
+    background-image: url('/images/share.png');
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-color: #EFF2FB;
+    background-position: center;
+    background-size: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
